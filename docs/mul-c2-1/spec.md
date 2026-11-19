@@ -24,4 +24,4 @@ Add `def mul(a, b): return a * b` to `calc.py`, after `sub`, in the same style. 
 
 ## Out of scope
 
-- Changes to `add`, `sub`, `weather.py`, `deploy.sh`, `secrets.env`, CI, README.
+- Changes to `add`, `sub`, `deploy.sh`, `secrets.env`, README. CI is added by its own ticket (02).
