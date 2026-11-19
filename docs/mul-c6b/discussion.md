@@ -27,6 +27,7 @@
 - 2026-11-19 agent: WARNING issued: the code uses the secret `WEATHER_API_KEY`. Tests never read the real `secrets.env`, and its value is never printed or committed elsewhere.
 - 2026-11-19 agent: option for the user, not done: `secrets.env` is tracked in a public repo (README says the key is fake). If a real key ever goes there, untrack it and add it to `.gitignore`.
 - 2026-11-19 agent: the topic slug `mul-c6b` is the user's choice; the README's separate `mul(a, b)` goal is not part of this work.
+- 2026-11-19 agent: PR #3 (ticket 01) was merged into branch mul-c6b/02 so one review and audit on PR #4 cover C1-C3; PR #3 closes when its commits reach main. (Saves a review round on a 3-line workflow.)
 
 ## Open questions
 
