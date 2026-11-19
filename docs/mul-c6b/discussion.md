@@ -28,6 +28,7 @@
 - 2026-11-19 agent: option for the user, not done: `secrets.env` is tracked in a public repo (README says the key is fake). If a real key ever goes there, untrack it and add it to `.gitignore`.
 - 2026-11-19 agent: the topic slug `mul-c6b` is the user's choice; the README's separate `mul(a, b)` goal is not part of this work.
 - 2026-11-19 agent: PR #3 (ticket 01) was merged into branch mul-c6b/02 so one review and audit on PR #4 cover C1-C3; PR #3 closes when its commits reach main. (Saves a review round on a 3-line workflow.)
+- 2026-11-19 agent: review round 1 audit failed only on S1 git evidence (the audit sandbox's `git` is a harness shim that crashes); C1-C3 audited PASS. Round 2 re-reviewed S1 with git-free evidence. Its first report cited `secrets.env:1`, and the audit log copied the key line, so that uncommitted report and audit were deleted and round 2 re-run with no evidence touching `secrets.env`. The committed review files contain no key value (checked by grep).
 
 ## Open questions
 
