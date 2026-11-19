@@ -30,6 +30,7 @@ README.md `## Goal`, quoted for reference:
 - 2026-11-19 agent: one code ticket (01) for `mul`; splitting the function from its test would leave a ticket with nothing to verify. Plus the CI ticket (02).
 - 2026-11-19 agent: `mul` matches the style of `add`/`sub`: plain `return a * b`, no type checks, no docstring. Python's own `*` semantics (e.g. `"a" * 3`) are left as is; restricting types is beyond the README's words.
 - 2026-11-19 agent: after CI lands, README's "It deliberately has no CI" becomes stale. Not changed (outside the README goal's words); option for the user.
+- 2026-11-19 agent: PR #8 (ticket 02, CI) is merged into branch `mul-c2-1/01`, so PR #6 runs CI and one review and audit on PR #6 cover C1-C3. PR #8 is marked merged when its commit reaches `main`. (Saves a review round on a 17-line workflow.)
 
 ## Open questions
 
